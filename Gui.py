@@ -14,20 +14,20 @@ class Gui :
         self.turn = 'White'
         self.enemy = 'Black'
                                                             #import photo by their address
-        self.KW=tk.PhotoImage( file ="kwhite.png")
-        self.RW=tk.PhotoImage( file ="rwhite.png")
-        self.BW=tk.PhotoImage( file ="bwhite.png")
-        self.PW=tk.PhotoImage( file ="pwhite.png")
-        self.NW=tk.PhotoImage( file ="nwhite.png")
-        self.QW=tk.PhotoImage( file ="qwhite.png") 
-        self.KB=tk.PhotoImage( file ="kblack.png")
-        self.RB=tk.PhotoImage( file ="rblack.png")
-        self.BB=tk.PhotoImage( file ="bblack.png")
-        self.PB=tk.PhotoImage( file ="pblack.png")
-        self.NB=tk.PhotoImage( file ="nblack.png")
-        self.QB=tk.PhotoImage( file ="qblack.png") 
-        self.EE=tk.PhotoImage( file ="empty.png")
-        self.img = tk.PhotoImage(file='Icon.png')
+        self.KW=tk.PhotoImage(file ="assets/kwhite.png")
+        self.RW=tk.PhotoImage(file ="assets/rwhite.png")
+        self.BW=tk.PhotoImage(file ="assets/bwhite.png")
+        self.PW=tk.PhotoImage(file ="assets/pwhite.png")
+        self.NW=tk.PhotoImage(file ="assets/nwhite.png")
+        self.QW=tk.PhotoImage(file ="assets/qwhite.png")
+        self.KB=tk.PhotoImage(file ="assets/kblack.png")
+        self.RB=tk.PhotoImage(file ="assets/rblack.png")
+        self.BB=tk.PhotoImage(file ="assets/bblack.png")
+        self.PB=tk.PhotoImage(file ="assets/pblack.png")
+        self.NB=tk.PhotoImage(file ="assets/nblack.png")
+        self.QB=tk.PhotoImage(file ="assets/qblack.png")
+        self.EE=tk.PhotoImage(file ="assets/empty.png")
+        self.img = tk.PhotoImage(file='assets/Icon.png')
         self.root.iconphoto(False, self.img) 
                                                             #calling the methods
         self.create_board()
@@ -170,7 +170,7 @@ class Gui :
 
     def pot_message(self):                                       # makes the draw message
         messagebox.showinfo("chess", "Pot!!!!!!")
-    
+
     def close_page(self,window):                                 # closes the window of game
         window.destroy()
 

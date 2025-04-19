@@ -9,7 +9,7 @@ This is a simple chess game built using Python. The project includes a graphical
 - Visual representation of chessboard and pieces
 - Audio and visual effects for gameplay interaction
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.x
 - Pygame library
